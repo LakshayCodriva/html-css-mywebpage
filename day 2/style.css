@@ -1,4 +1,4 @@
-SSh1,h2 {
+h1,h2 {
     text-align: center;
     color: #333;
     font-family: 'Arial';
@@ -62,5 +62,10 @@ td,th {
     color: #555;
     font-family: 'Arial';
     font-size: 18px;
+    padding: 10px;
+}
+
+caption {
+    text-align: left;
     padding: 10px;
 }
