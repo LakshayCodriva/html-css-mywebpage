@@ -1,3 +1,9 @@
+body {
+  /* Shorthand: image path, center alignment, no tiling, and fixed attachment */
+  background: url('https://cdn.pixabay.com/animation/2025/02/06/17/23/17-23-54-364_512.gif') no-repeat center center fixed; 
+  background-size: cover; 
+}
+
 h1 {
     text-align: center;
     color: #333;
