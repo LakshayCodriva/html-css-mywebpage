@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: Arial;
+    color: black;
+}
+
+#form-container {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    background-color:lightyellow;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color:black;
+}
+
