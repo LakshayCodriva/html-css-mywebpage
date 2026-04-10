@@ -11,7 +11,7 @@
 <body bgcolor="lightgray">
     <h1>Registration Form</h1>
     <div id="form-container">
-        <form action="/submit" method="post">
+        <form action="https://bouncyballs.org/" method="post">
             <div id="credentials">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="John Doe">
@@ -22,6 +22,7 @@
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" placeholder="Password(8-16)"
+                title="Password must be 8-16 characters long and include at least one lowercase letter, one uppercase letter, one digit, and one special character"
                     pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,16}$">
 
             </div>
