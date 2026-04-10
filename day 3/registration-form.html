@@ -14,16 +14,16 @@
         <form action="https://bouncyballs.org/" method="post">
             <div id="credentials">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="John Doe">
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
 
                 <!-- I used Chatgpt to generate the regex pattern for email and password validation -->
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="test@codriva.com"
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" placeholder="Password(8-16)"
                 title="Password must be 8-16 characters long and include at least one lowercase letter, one uppercase letter, one digit, and one special character"
-                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,16}$">
+                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,16}$" required>
 
             </div>
             <label for="city">Choose city:</label>
@@ -33,12 +33,13 @@
                 <option value="Chicago">Chicago</option>
             </select>
 
-            <label for="gender">Gender:<br>
-                <input type="radio" name="gender" value="male" required>
+            <label for="gender">Gender:</label>
+            <label for="male">
+                <input type="radio" id="male" name="gender" value="male" required>
                 Male
             </label>
-            <label>
-                <input type="radio" name="gender" value="female" required>
+            <label for="female">
+                <input type="radio" id="female" name="gender" value="female" required>
                 Female
             </label>
             <br>
