@@ -1,6 +1,6 @@
 body {
   /* Shorthand: image path, center alignment, no tiling, and fixed attachment */
-  background: url('https://cdn.pixabay.com/animation/2025/02/06/17/23/17-23-54-364_512.gif') no-repeat center center fixed; 
+  background: url('https://img.freepik.com/free-vector/colorful-gradient-abstract-background-vibrant-fluid-wave-pastel-neon-design_343694-4585.jpg?semt=ais_hybrid&w=740&q=80') no-repeat center center fixed; 
   background-size: cover; 
 }
 
@@ -17,7 +17,7 @@ h1 {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5%;
-    background-color:lightyellow;
+    background: linear-gradient(to right, pink, rgb(231, 15, 231));
 }
 
 label {
@@ -52,6 +52,7 @@ input {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-right: 20px;
 }
 
 #credentials > input {
