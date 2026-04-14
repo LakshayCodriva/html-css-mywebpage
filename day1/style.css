@@ -1,6 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+              url('http://img.freepik.com/free-photo/top-view-desk-concept-with-copy-space_23-2148236823.jpg?semt=ais_hybrid&w=740&q=80');
+  background-size: cover;
+}
 
 img  {
-    border-radius: 50%;
     border-width: 3px;
     border-style: solid;
     display: block;
@@ -15,8 +23,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-    text-align: center;
-    color: #555;
     font-family: 'Arial';
     font-size: 18px;
 }
@@ -31,9 +37,12 @@ li {
 
 
 section {
+    border-radius: 10%;
     justify-content: center;
     text-align: center;
-    margin: 20px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: lightgray;
 }
