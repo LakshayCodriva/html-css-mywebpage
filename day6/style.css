@@ -1,0 +1,97 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}       
+
+header {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    text-align: justify;
+    position:fixed;
+    top:0;
+    z-index: 1000;
+    border:2px;
+    padding :10px;
+    background-color:lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.05ch;
+}
+
+
+#logo {
+    align-items: center;
+    display:flex;
+    gap:10px;
+}
+
+#logo > img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    object-fit: fill;
+}
+
+nav {
+    align-items: center;
+    padding-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display:flex;
+    flex-direction: row;
+    font-size: large;
+    gap:30px;
+}
+
+main {
+    margin-top: 10rem;
+    display: flex;
+    text-align: center;
+    justify-content:space-evenly;
+}
+
+.cards {
+    margin: 20px;
+    height: 900px;
+    width: 500px;
+    padding:10px;
+    background-color:gainsboro;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.cards img{
+    padding:30px;
+    max-width: 100%;
+}
+
+span {
+    padding : 1em;
+}
+
+section {
+    padding : 2rem;
+}
+
+p {
+    padding-top: 1em;
+}
+
+article strong {
+    align-items: center;
+
+}
+
+.overflow-paragraph {
+    width:480px;
+    height:238px;
+    overflow: auto;
+}
+
+footer{
+    display: block;
+    width:100%;
+}
